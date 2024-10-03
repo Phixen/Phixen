@@ -2,7 +2,7 @@ version: 0.0.1
 achievements:
  - achievement:
    name: Every Bit Counts
-   icon: https://raw.githubusercontent.com/keploy/keploy/main/.vaunt/badge/commit_hero.png
+   icon: https://raw.githubusercontent.com/keploy/keploy/dffe613093d067e9ad801ef1917e7e94d2ff725f/.vaunt/badge/closer.png
    description: No commit is too small!
    triggers:
     - trigger:
@@ -11,7 +11,7 @@ achievements:
       condition: count() >= 1
  - achievement:
    name: Pull Request Hero
-   icon: https://raw.githubusercontent.com/keploy/keploy/main/.vaunt/badge/pull_request_hero.png
+   icon: https://raw.githubusercontent.com/keploy/keploy/dffe613093d067e9ad801ef1917e7e94d2ff725f/.vaunt/badge/pull_request_hero.png
    description: You're a PR hero, rock on!
    triggers:
     - trigger:
@@ -20,7 +20,7 @@ achievements:
       condition: merged = true
  - achievement:
    name: Docs Maker
-   icon: https://raw.githubusercontent.com/keploy/keploy/main/.vaunt/badge/docs_hero.png
+   icon: https://raw.githubusercontent.com/keploy/keploy/dffe613093d067e9ad801ef1917e7e94d2ff725f/.vaunt/badge/docs_hero.png
    description: Kudos for improving documentation!
    triggers:
     - trigger:
@@ -29,7 +29,7 @@ achievements:
       condition: closed = true & labels in ['Documentation']
  - achievement:
    name: Closer
-   icon: https://raw.githubusercontent.com/sonichigo/keploy/vaunt/.vaunt/badge/closer.png
+   icon: https://raw.githubusercontent.com/keploy/keploy/dffe613093d067e9ad801ef1917e7e94d2ff725f/.vaunt/badge/commit_hero.png
    description: Only closers get coffee!!
    triggers:
     - trigger:
